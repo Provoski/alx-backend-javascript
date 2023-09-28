@@ -1,7 +1,7 @@
 import signUpUser from './4-user-promise';
 import { uploadPhoto } from './5-photo-reject';
 
-async function handleProfileSignup(firstName, lastName, fileName) {
+async function handleProfileSignup(firstName = '', lastName = '', fileName = '') {
   // Use Promise.allSettled to handle multiple promises and get their results
   const promises = [
     signUpUser(firstName, lastName),
