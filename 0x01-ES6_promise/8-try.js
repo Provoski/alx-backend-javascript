@@ -1,4 +1,4 @@
-function divideFunction(numerator, denominator) {
+function divideFunction(numerator = 0, denominator = 1) {
   if (denominator === 0) {
     throw new Error('Cannot divide by 0');
   }
