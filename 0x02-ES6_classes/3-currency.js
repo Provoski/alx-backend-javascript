@@ -38,5 +38,4 @@ class Currency {
     return `${this._name} (${this._code})`;
   }
 }
-
-export default Currency; 
+export default Currency;
